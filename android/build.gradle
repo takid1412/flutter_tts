@@ -28,7 +28,6 @@ project.getTasks().withType(JavaCompile).configureEach {
 }
 
 apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android'
 
 android {
     compileSdk 36
